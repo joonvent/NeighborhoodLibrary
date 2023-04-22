@@ -28,7 +28,7 @@ public class Main {
             scanner.nextLine();
 
             switch(choice){
-                case 1: ListAvailableBook;
+                case 1: listAvailableBooks();
 
 
                 case 2:
@@ -46,9 +46,7 @@ public class Main {
     }
     private static void listAvailableBooks(){
         System.out.println("Available Books:");
-        for(int i =0; i <numBooks; i++){
-            System.out.println(Books[i].getId()+);
-        }
+        for(int i =0; i <numBooks; i++) System.out.println(Books[i].getId());
     }
 
 
