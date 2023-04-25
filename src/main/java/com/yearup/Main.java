@@ -96,6 +96,10 @@ public class Main {
                 System.out.println(Books[i].getTitle() + " | " + Books[i].getId() + " | " + Books[i].getIsbn() + " | Checked Out By: " + Books[i].getCheckedOutTo());
             }
             }
+        System.out.println("Press C to Check-in Book:");
+
+        System.out.println(("Press X to go back home:"));
+
         }
 
 
