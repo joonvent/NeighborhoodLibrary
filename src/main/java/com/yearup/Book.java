@@ -10,7 +10,7 @@ public class Book {
     private String checkedOutTo;
 
 
-    public Book(int id , String isbn , String title ){
+    public Book(int id , String isbn , String title){
         this.id = id;
         this.isbn = isbn;
         this.title = title;
